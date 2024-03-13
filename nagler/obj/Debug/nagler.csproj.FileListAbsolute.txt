@@ -1,0 +1,2 @@
+D:\Users\badet\source\repos\nagler\nagler\obj\Debug\nagler.csproj.AssemblyReference.cache
+D:\Users\badet\source\repos\nagler\nagler\obj\Debug\nagler.csproj.CoreCompileInputs.cache

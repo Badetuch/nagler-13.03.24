@@ -15,6 +15,7 @@ public class Buchungsverwaltung
         {
             private List<Gast> gastliste = new List<Gast>();
             private List<Buchung> buchungsliste = new List<Buchung>();
+            
 
             public Buchungsverwaltung() { }
 
@@ -44,6 +45,7 @@ public class Buchungsverwaltung
             public List<Gast> getGaesteOhneBuchung()
             {
                 return gastliste.Where(g => g.GetBuchungsliste().Count == 0).ToList();
+                Console.WriteLine('Malte du hs')
             }
 
             public long berechneDauerAllerBuchungen()
